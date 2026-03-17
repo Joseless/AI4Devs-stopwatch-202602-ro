@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ddd;
+  text-align: center;
+}
+
+/* MENU */
+.menu .options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.green {
+  background: #bfffc0;
+}
+
+.red {
+  background: #ffc0c0;
+}
+
+/* CONTENEDOR */
+.container {
+  margin-top: 50px;
+}
+
+/* DISPLAY */
+#display {
+  font-size: 80px;
+  background: #cfd3e0;
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+#display span {
+  font-size: 30px;
+}
+
+/* BOTONES */
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 30px;
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#startPause {
+  background: lime;
+}
+
+#clear {
+  background: red;
+  color: white;
+}
+
+/* KEYPAD */
+.keypad {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.keypad button {
+  background: lime;
+}
+
+.set {
+  grid-column: span 2;
+}
+
+.clear {
+  background: gray;
+  grid-column: span 2;
+}
